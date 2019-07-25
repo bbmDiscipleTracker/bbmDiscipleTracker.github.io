@@ -697,7 +697,7 @@
 		self.vegas(options);
 	});
 	$(".player").mb_YTPlayer({
-		showControls: true,
+		showControls: false,
 		ratio: 'auto',
 		loop: true,
 		autoPlay: true,
@@ -712,7 +712,7 @@
 			    _strf = self.html();
 		self.countdown(_date, function (event) {
 			self.html(event.strftime(_strf));
-		}).removeClass("show");
+		}).removeClass("hide");
 	});
 	
 })(jQuery);
