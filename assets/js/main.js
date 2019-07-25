@@ -712,7 +712,7 @@
 			    _strf = self.html();
 		self.countdown(_date, function (event) {
 			self.html(event.strftime(_strf));
-		}).removeClass("hide");
+		}).removeClass("show");
 	});
 	
 })(jQuery);
