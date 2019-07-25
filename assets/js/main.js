@@ -697,7 +697,7 @@
 		self.vegas(options);
 	});
 	$(".player").mb_YTPlayer({
-		showControls: false,
+		showControls: true,
 		ratio: 'auto',
 		loop: true,
 		autoPlay: true,
