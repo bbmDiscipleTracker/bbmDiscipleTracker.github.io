@@ -1,28 +1,29 @@
 {
   "files": {
-    "main.css": "/static/css/main.ea7ec7b4.chunk.css",
-    "main.js": "/static/js/main.3bf2be61.chunk.js",
-    "main.js.map": "/static/js/main.3bf2be61.chunk.js.map",
+    "main.css": "/static/css/main.0c990d22.chunk.css",
+    "main.js": "/static/js/main.daba407e.chunk.js",
+    "main.js.map": "/static/js/main.daba407e.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.99d6d460.js",
     "runtime-main.js.map": "/static/js/runtime-main.99d6d460.js.map",
-    "static/css/2.a88993d5.chunk.css": "/static/css/2.a88993d5.chunk.css",
-    "static/js/2.6c7a08bb.chunk.js": "/static/js/2.6c7a08bb.chunk.js",
-    "static/js/2.6c7a08bb.chunk.js.map": "/static/js/2.6c7a08bb.chunk.js.map",
+    "static/css/2.0f054934.chunk.css": "/static/css/2.0f054934.chunk.css",
+    "static/js/2.9da1a858.chunk.js": "/static/js/2.9da1a858.chunk.js",
+    "static/js/2.9da1a858.chunk.js.map": "/static/js/2.9da1a858.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.9bb1dd82066a89ff8f75228c0fa18657.js": "/precache-manifest.9bb1dd82066a89ff8f75228c0fa18657.js",
+    "precache-manifest.1b7a50e6d33b7f82e2a8731b94e3c9ef.js": "/precache-manifest.1b7a50e6d33b7f82e2a8731b94e3c9ef.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/2.a88993d5.chunk.css.map": "/static/css/2.a88993d5.chunk.css.map",
-    "static/css/main.ea7ec7b4.chunk.css.map": "/static/css/main.ea7ec7b4.chunk.css.map",
-    "static/js/2.6c7a08bb.chunk.js.LICENSE.txt": "/static/js/2.6c7a08bb.chunk.js.LICENSE.txt",
+    "static/css/2.0f054934.chunk.css.map": "/static/css/2.0f054934.chunk.css.map",
+    "static/css/main.0c990d22.chunk.css.map": "/static/css/main.0c990d22.chunk.css.map",
+    "static/js/2.9da1a858.chunk.js.LICENSE.txt": "/static/js/2.9da1a858.chunk.js.LICENSE.txt",
+    "static/media/Sermons.scss": "/static/media/Apostle_2.8dd55944.jpg",
     "static/media/bmm.jpeg": "/static/media/bmm.32768934.jpeg",
     "static/media/mobiscroll.min.css": "/static/media/icons_mobiscroll.c405c13e.ttf",
     "static/media/logout.svg": "/static/media/logout.60a28f32.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.99d6d460.js",
-    "static/css/2.a88993d5.chunk.css",
-    "static/js/2.6c7a08bb.chunk.js",
-    "static/css/main.ea7ec7b4.chunk.css",
-    "static/js/main.3bf2be61.chunk.js"
+    "static/css/2.0f054934.chunk.css",
+    "static/js/2.9da1a858.chunk.js",
+    "static/css/main.0c990d22.chunk.css",
+    "static/js/main.daba407e.chunk.js"
   ]
 }
