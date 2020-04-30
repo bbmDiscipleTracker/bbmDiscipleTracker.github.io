@@ -495,6 +495,20 @@ Hero section
 	position: relative;
 }
 
+.hero-nav-slider .hns-item {
+	text-align: center;
+    padding: 26px 0 26px 30px;
+    -webkit-transition: all 0.4s;
+    transition: all 0.4s;
+    color: #ffffff!important;
+    border-width: 2px!important;
+    border-radius: 39px;
+    font-size: 16px;
+    font-family: 'Montserrat',Helvetica,Arial,Lucida,sans-serif!important;
+    font-weight: 700!important;
+    text-transform: uppercase!important;
+}
+
 .hero-slider .owl-item.active .hs-item h2 {
 	top: 0;
 	opacity: 1;
