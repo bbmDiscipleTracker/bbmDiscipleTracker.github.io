@@ -34,9 +34,7 @@
 
 	<!-- Main Stylesheets -->
 	<link rel="stylesheet" href="css/style.css"/>
-	<style type="text/css">
-		
-		
+	<style type="text/css">		
 			h1 {
 			    font-size: 46px;
 			    letter-spacing: -2px;
@@ -49,8 +47,40 @@
 			    color:azure;
 			    font-size: 175px;
     			color: mintcream;
+
+	    		
 			}
 			
+			@media only screen and (min-width: 0px) and (max-width: 4140px){
+					h1{font-size: 50px;
+					  text-align: center;	}	
+			}
+
+			@media only screen and (min-width: 600px) and (max-width: 766px){
+				h1{font-size: 87px;	
+				  text-align: center;}	
+			}
+
+			@media only screen and (min-width: 766px) and (max-width: 850px){
+				h1{font-size: 97px;	
+				  text-align: center;}	
+			}
+
+			@media only screen and (min-width: 850px) and (max-width: 960px){
+				h1{font-size: 113px;	
+				  text-align: center;}	
+			}
+
+			@media only screen and (min-width: 960px) and (max-width: 1000px){
+				h1{font-size: 123px;	
+				  text-align: center;}	
+			}
+			
+
+			@media only screen and (min-width: 1000px){
+				h1{font-size: 133px;
+				  text-align: center;}		
+			}
 			.hns-item{
 				color: #ffffff!important;
 			    border-width: 2px!important;
@@ -64,6 +94,24 @@
 			.live-service{
 				bottom: 520px;
 				color: mintcream;
+			}
+			.hero-nav-slider-warp{
+				bottom: 450px;
+			}
+			@media only screen and (min-width: 0px) and (max-width: 4140px){
+				.hero-nav-slider-warp{bottom: 100px;}	
+			}
+
+    		@media only screen and (min-width: 400px) and (max-width: 600px){
+				.hero-nav-slider-warp{bottom: 150px;}		
+			}
+
+			@media only screen and (min-width: 600px) and (max-width: 800px){
+				.hero-nav-slider-warp{bottom: 250px;}	
+			}
+
+			@media only screen and (min-width: 1000px){
+				.hero-nav-slider-warp{bottom: 350px;}
 			}
 	</style>
 
@@ -186,7 +234,7 @@
 			</div>
 		</div>
 		<!-- Hero details slider -->
-		<div class="hero-nav-slider-warp" style="bottom: 450px">
+		<div class="hero-nav-slider-warp" >
 			<div class="container">
 				<div class="hero-nav-slider owl-carousel">
 					<div class="hns-item">
