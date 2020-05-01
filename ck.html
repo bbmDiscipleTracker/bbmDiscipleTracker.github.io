@@ -1,13 +1,13 @@
 ﻿<!doctype html>
-<html class="no-js" lang="zxx">
+<html class="no-js" lang="en">
 
 <head>
    <meta charset="utf-8">
    <meta http-equiv="x-ua-compatible" content="ie=edge">
    <title>Burning Bush Ministries </title>
     <meta name="description" content="Burnig Bush Ministries Website">
-   <meta name="keywords" content="bbm, burning bush ministries, html">
-   <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="keywords" content="bbm, burning bush ministries, html">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
    <link rel="shortcut icon" type="image/x-icon" href="assets/img/favicon.ico">
 
  <!-- Favicon -->
@@ -23,20 +23,115 @@
     <link rel="stylesheet" href="css/magnific-popup.css"/>
     <link rel="stylesheet" href="css/owl.carousel.min.css"/>
 
-     <!-- CSS here -->
+   <!-- CSS here -->
      <link rel="stylesheet" href="assets/css/bootstrap.min.css">
       <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
-      <!--  <link rel="stylesheet" href="assets/css/slicknav.css">
+       <link rel="stylesheet" href="assets/css/slicknav.css">
       <link rel="stylesheet" href="assets/css/animate.min.css">
       <link rel="stylesheet" href="assets/css/magnific-popup.css">
       <link rel="stylesheet" href="assets/css/fontawesome-all.min.css">
       <link rel="stylesheet" href="assets/css/themify-icons.css">
       <link rel="stylesheet" href="assets/css/slick.css">
-      <link rel="stylesheet" href="assets/css/nice-select.css"> -->
+      <link rel="stylesheet" href="assets/css/nice-select.css">
       <link rel="stylesheet" href="assets/css/style.css">
 
     <!-- Main Stylesheets -->
     <link rel="stylesheet" href="css/style.css"/>
+    <style>
+        /* Popup Box */
+              /* The Modal (background) */
+              .modal {
+                  display: none; /* Hidden by default */
+                  position: fixed; /* Stay in place */
+                  z-index: 8888; /* Sit on top */
+                  left: 0;
+                  top: 0;
+                  width: 100%; /* Full width */
+                  height: 100%; /* Full height */
+                  overflow: auto; /* Enable scroll if needed */
+                  background-color: rgb(0,0,0); /* Fallback color */
+                  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+              }
+              /* Modal Content/Box */
+              .modal-content {
+                  background-color: #fefefe;
+                  margin: 10vh auto; /* 15% from the top and centered */
+                  padding: 20px;
+                  border: 1px solid #888;
+                  width: 60%; /* Could be more or less, depending on screen size */
+              }
+              @media (min-width: 1366px) {
+              .modal-content {
+                  background-color: #fefefe;
+                  margin: 10vh auto; /* 15% from the top and centered */
+                  padding: 20px;
+                  border: 1px solid #888;
+                  width: 30%; /* Could be more or less, depending on screen size */
+              }
+              }
+              h2, p {
+                  margin: 0 0 20px;
+                  font-weight: 400;
+                  color: #666;
+              }
+              span{
+                  color: #666;
+                  display:block;
+                  padding:0 0 5px;
+              }
+              form {
+                  padding: 25px;
+                  margin: 25px;
+                  box-shadow: 0 2px 5px #f5f5f5; 
+                  background: #eee; 
+              }
+              input, textarea {
+                  width: calc(100% - 18px);
+                  padding: 8px;
+                  margin-bottom: 20px;
+                  border: 1px solid #1c87c9;
+                  outline: none;
+              }
+              .contact-form button {
+                  width: 95%; 
+                  border: none;
+                  background: #1c87c9; 
+                  font-size: 16px;
+                  font-weight: 400;
+                  color: #fff;
+              }
+              button:hover {
+                   background: #2371a0;
+              }    
+              /* The Close Button */
+              .close {
+                  color: #aaa;
+                  float: right;
+                  font-size: 28px;
+                  font-weight: bold;
+              }
+              .close:hover,
+              .close:focus {
+                  color: black;
+                  text-decoration: none;
+                  cursor: pointer;
+              }
+              button.button {
+                  background:none;
+                  border-top:none;
+                  outline: none;
+                  border-right:none;
+                  border-left:none;
+                  border-bottom:#02274a 1px solid;
+                  padding:0 0 3px 0;
+                  font-size:16px;
+                  cursor:pointer;
+              }
+              button.button:hover {
+                  border-bottom:#a99567 1px solid;
+                  color:#a99567;
+              }
+    </style>
 </head>
 
 <body>
@@ -71,28 +166,26 @@
                                     <nav>
                                         <ul id="navigation">
                                              <li><a href="index.html">Home</a></li>
-                                            <li><a href="about.html">About</a></li>                                            
-                                            <!-- <li><a href="">Events</a></li>
-                                            <li><a href="">Sermons</a></li> -->
+                                            <li><a href="about.html">About</a></li>     
                                             <li>
                                                 <a href="">Ministries</a>
-                                                <ul class="submenu">
-                                                    <li><a href="ck.html">Covenant Keepers</a></li>
+                                                ul class="submenu">
                                                     <li><a href="aow.html">Army of Women</a></li>
+                                                    <li><a href="ck.html">Covenant Keepers</a></li>
+                                                    <li><a href="youthquake.html">Youth Quake</a></li>
                                                     <li><a href="faithkids.html">Faith Kids</a></li>
                                                     <li><a href="oleabond.html">Olea Bond</a></li>
-                                                    <li><a href="youthquake.html">Youth Quake</a></li>
                                                 </ul>
                                             </li>
                                             <li><a href="">Churches</a></li>
-<!--                                            <li><a href="">Registration</a></li>
- -->                                            <li><a href="contact.html">Contact</a></li>
+                                            <li><a href="contact.html">Contact</a></li>
                                         </ul>
                                     </nav>
                                 </div>
                             </div>       
-                            <div class="col-xl-2 col-lg-3 col-md-3">
-                                  <a class="btn header-btn" href="https://www.payfast.co.za/eng/process?cmd=_paynow&amp;receiver=15223494&amp;item_name=BBM+Registration&amp;item_description=Burning+Bush+Ministries+registration+for+the+events%2C+either+Passover%2C+Harvest+celebration+or+any+other+similar+events.&amp;amount=100.00&amp;return_url=http%3A%2F%2Fburningbushministries-int.co.za%2F&amp;cancel_url=http%3A%2F%2Fburningbushministries-int.co.za%2F">Register</a>
+                             <div class="col-xl-2 col-lg-3 col-md-3">
+                                <div class="btn header-btn button header-right-btn f-right d-none d-lg-block">      <a class="button" data-modal="modalOne">Register</a>
+                                </div>
                             </div>
                             <!-- Mobile Menu -->
                             <div class="col-12">
@@ -105,6 +198,46 @@
         </div>
         <!-- Header End -->
     </header>
+
+    <div id="modalOne" class="modal">
+      <div class="modal-content">
+        <div class="contact-form">
+          <a class="close">&times;</a>
+          <form  action="https://www.payfast.co.za/eng/process" name="form_4b4cc514cb4f65acbe66b23c64b9e9dd" onsubmit="gotoPayfast()""  method="post">
+             <input type="hidden" name="cmd" value="_paynow"/>
+            <input type="hidden" name="receiver" value="mabasolindaniricardo@gmail.com"/>
+            <input type="hidden" name="item_name" value="{item_name}"/>
+            <input type="hidden" name="name_first" value={firstName}/>
+            <input type="hidden" name="phone" value={province}/>
+            <input type="hidden" name="item_description" value="Burning Bush Ministries registration for preparation of the event"/>
+            <input type="hidden" name="return_url" value="http://testing.burningbushministries-int.co.za"/>
+            <input type="hidden" name="cancel_url" value="http://testing.burningbushministries-int.co.za"/>
+            <input type="hidden" id="notify_url" name="notify_url" value="https://testing.burningbushministries-int.co.za/payment_notify"/>
+            <input type="hidden" id="merchant_id" name="merchant_id" value="15223494"/>
+            <input type="hidden" id="merchant_key" name="merchant_key" value="24n97jg15vygw"/>
+            <input type="hidden" id="email_confirmation" name="email_confirmation" value="1"/>
+            <input type="hidden" id="payment_id" name="payment_id" value="WIPEOUT"/>
+            <input type="hidden" id="confirmation_address" name="confirmation_address" value="mabasolindaniricardo@gmail.com"></input>
+            
+            <fieldset>
+            <legend><h2 align="="center>Event Registeration</h2></legend>
+            <div>
+                 <input  required class="item_name" type="text" name="item_name" placeholder="Event Name e.g. Passover" value="">
+                  <input  required class="name_first" type="text" name="name_first" placeholder="First Name" value="">
+                  <!-- <input  required class="name_last" type="text" name="name_last" placeholder="Last Name" value=""> -->
+                  <input  required type="email_address" name="email_address" placeholder="Email" value="" value="">
+                  <input  required minlength='10'  pattern="[0-9]+" type="text" name="phone" placeholder="Phone number" value="">
+                  <input required id="amount" name="amount" type="text"  pattern="[0-9.]+" value="" placeholder="Amount">
+                </div>
+               <button type="submit" class="btn ghost-black"  alt="Pay Now" title="Pay Now with PayFast" >Register
+                </button>
+             </fieldset>
+          </form>
+        </div>
+      </div>
+    </div>
+    </div>
+
     <main>
         <!-- Hero Area Start -->
         <div class="hero-area hero-height2 d-flex align-items-center" data-background="assets/img/hero/h2_hero.jpg">
@@ -138,31 +271,41 @@
                             <div class="feature-img">
                                 <img class="img-fluid" src="assets/img/department/ck.jpg" alt="">
                             </div>
+							
+							
+							
+							
                             <div class="blog_details">
                                 <h2>
                                     Covenant Keepers is the department that seeks to develop men in our society.
                                 </h2>
 
-                                <p class="excert">
+                                <p><h2>
                                     <b>Vision:</b><br/>
                                     “Develop the whole man.”
                                     2 Timothy 3:17
+									</h2>
                                 </p>
-                                <p>
+                                <p><h2>
                                     <b>Our Mission:</b><br/>
-                                    •	Develop soul, boy and spirit<br />
-                                    •	Pursuit of spiritual excellence<br />
-                                    •	Empower men by preaching and teaching the word of God<br />
-                                    •	Corporate Excellence<br />
+                                    •	Develop soul, boy and spirit.<br />
+                                    •	Pursuit of spiritual excellence.<br />
+                                    •	Empower men by preaching and teaching the word of God.<br />
+                                    •	Corporate Excellence.<br />
+									</h2>
                                 </p>
+								
+								
                                 <div class="quote-wrapper">
                                     <div class="quotes">
+									<h2>
                                         <b>Strategic Goals:</b><br/>
                                         •	Advocating for responsible and proud fathers.<br />
                                         •	Ecalcating positive habbits and attitude in our society.<br />
                                         •	Win more men for Christ.<br />
                                         •	Enabling the voice of integrity to be heard in the community, publicly condemn misbehavior.<br />
-                                        •	Developing skills.<br />
+                                        •	Skills Development.<br />
+										</h2>
                                     </div>
                                 </div>
                                
@@ -180,7 +323,7 @@
         <!--================ Blog Area end =================-->
     </main>
    <!-- Footer section -->
-    <footer class="footer-section">
+      <footer class="footer-section">
         <div class="container">
             <div class="copyright"> Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | Burning Bush Ministries</div>
         </div>
@@ -228,6 +371,30 @@
         })();
         </script>
         <!-- /GetButton.io widget -->
+          <script>
+              var modalBtns = [...document.querySelectorAll(".button")];
+              modalBtns.forEach(function(btn){
+                btn.onclick = function() {
+                  var modal = btn.getAttribute('data-modal');
+                  document.getElementById(modal).style.display = "block";
+                }
+              });
+              
+              var closeBtns = [...document.querySelectorAll(".close")];
+              closeBtns.forEach(function(btn){
+                btn.onclick = function() {
+                  var modal = btn.closest('.modal');
+                  modal.style.display = "none";
+                }
+              });
+              
+              window.onclick = function(event) {
+                if (event.target.className === "modal") {
+                  event.target.style.display = "none";
+                }
+              }
+
+         </script>
 
     </body>
 </html>

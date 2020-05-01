@@ -1,11 +1,11 @@
 <!DOCTYPE html>
-<html lang="zxx">
+<html lang="en">
 <head>
 	<title>Burning Bush Ministries</title>
-	<meta charset="UTF-8">
+	 <meta charset="UTF-8">
 	 <meta name="description" content="Burnig Bush Ministries Website">
-   <meta name="keywords" content="bbm, burning bush ministries, html">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <meta name="keywords" content="bbm, burning bush ministries, html">
+	 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 	
 	<!-- Favicon -->
 	<link href="img/favicon.ico" rel="shortcut icon"/>
@@ -20,20 +20,117 @@
 	<link rel="stylesheet" href="css/magnific-popup.css"/>
 	<link rel="stylesheet" href="css/owl.carousel.min.css"/>
 
-	 <!-- CSS here -->
+	  <!-- CSS here -->
      <link rel="stylesheet" href="assets/css/bootstrap.min.css">
       <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
-      <!--  <link rel="stylesheet" href="assets/css/slicknav.css">
+       <link rel="stylesheet" href="assets/css/slicknav.css">
       <link rel="stylesheet" href="assets/css/animate.min.css">
       <link rel="stylesheet" href="assets/css/magnific-popup.css">
       <link rel="stylesheet" href="assets/css/fontawesome-all.min.css">
       <link rel="stylesheet" href="assets/css/themify-icons.css">
       <link rel="stylesheet" href="assets/css/slick.css">
-      <link rel="stylesheet" href="assets/css/nice-select.css"> -->
+      <link rel="stylesheet" href="assets/css/nice-select.css">
       <link rel="stylesheet" href="assets/css/style.css">
 
 	<!-- Main Stylesheets -->
 	<link rel="stylesheet" href="css/style.css"/>
+
+    <style>
+        /* Popup Box */
+              /* The Modal (background) */
+              .modal {
+                  display: none; /* Hidden by default */
+                  position: fixed; /* Stay in place */
+                  z-index: 8888; /* Sit on top */
+                  left: 0;
+                  top: 0;
+                  width: 100%; /* Full width */
+                  height: 100%; /* Full height */
+                  overflow: auto; /* Enable scroll if needed */
+                  background-color: rgb(0,0,0); /* Fallback color */
+                  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+              }
+              /* Modal Content/Box */
+              .modal-content {
+                  background-color: #fefefe;
+                  margin: 10vh auto; /* 15% from the top and centered */
+                  padding: 20px;
+                  border: 1px solid #888;
+                  width: 60%; /* Could be more or less, depending on screen size */
+              }
+              @media (min-width: 1366px) {
+              .modal-content {
+                  background-color: #fefefe;
+                  margin: 10vh auto; /* 15% from the top and centered */
+                  padding: 20px;
+                  border: 1px solid #888;
+                  width: 30%; /* Could be more or less, depending on screen size */
+              }
+              }
+              h2, p {
+                  margin: 0 0 20px;
+                  font-weight: 400;
+                  color: #666;
+              }
+              span{
+                  color: #666;
+                  display:block;
+                  padding:0 0 5px;
+              }
+              form {
+                  padding: 25px;
+                  margin: 25px;
+                  box-shadow: 0 2px 5px #f5f5f5; 
+                  background: #eee; 
+              }
+              input, textarea {
+                  width: calc(100% - 18px);
+                  padding: 8px;
+                  margin-bottom: 20px;
+                  border: 1px solid #1c87c9;
+                  outline: none;
+              }
+              .contact-form button {
+                  width: 95%; 
+                  border: none;
+                  background: #1c87c9; 
+                  font-size: 16px;
+                  font-weight: 400;
+                  color: #fff;
+              }
+              button:hover {
+                   background: #2371a0;
+              }    
+              /* The Close Button */
+              .close {
+                  color: #aaa;
+                  float: right;
+                  font-size: 28px;
+                  font-weight: bold;
+              }
+              .close:hover,
+              .close:focus {
+                  color: black;
+                  text-decoration: none;
+                  cursor: pointer;
+              }
+              button.button {
+                  background:none;
+                  border-top:none;
+                  outline: none;
+                  border-right:none;
+                  border-left:none;
+                  border-bottom:#02274a 1px solid;
+                  padding:0 0 3px 0;
+                  font-size:16px;
+                  cursor:pointer;
+              }
+              button.button:hover {
+                  border-bottom:#a99567 1px solid;
+                  color:#a99567;
+              }
+    </style>
+
 
 </head>
 <body>
@@ -64,33 +161,30 @@
                             </div>
                             <div class="col-xl-8 col-lg-8 col-md-8">
                                 <!-- Main-menu -->
-                                <div class="main-menu f-right d-none d-lg-block">
+                              <div class="main-menu f-right d-none d-lg-block">
                                     <nav>
                                         <ul id="navigation">
                                              <li><a href="index.html">Home</a></li>
-                                            <li><a href="about.html">About</a></li>                                            
-											<!-- <li><a href="">Events</a></li>
-											<li><a href="">Sermons</a></li> -->
-											<li>
+                                            <li><a href="about.html">About</a></li>
+                                            <!-- <li><a href="">Sermons</a></li> --> 
+                                            <li>
                                                 <a href="">Ministries</a>
                                                 <ul class="submenu">
-                                                    <li><a href="ck.html">Covenant Keepers</a></li>
                                                     <li><a href="aow.html">Army of Women</a></li>
+                                                    <li><a href="ck.html">Covenant Keepers</a></li>
+                                                    <li><a href="youthquake.html">Youth Quake</a></li>
                                                     <li><a href="faithkids.html">Faith Kids</a></li>
                                                     <li><a href="oleabond.html">Olea Bond</a></li>
-                                                    <li><a href="youthquake.html">Youth Quake</a></li>
                                                 </ul>
                                             </li>
-											<li><a href="">Churches</a></li>
-<!-- 											<li><a href="">Registration</a></li>
- -->                                            <li><a href="contact.html">Contact</a></li>
+                                            <li><a href="">Churches</a></li>
+                                         <li><a href="contact.html">Contact</a></li>
                                         </ul>
                                     </nav>
                                 </div>
                             </div>       
                             <div class="col-xl-2 col-lg-3 col-md-3">
-                                <div class="header-right-btn f-right d-none d-lg-block">
-                                    <a class="btn header-btn" href="https://www.payfast.co.za/eng/process?cmd=_paynow&amp;receiver=15223494&amp;item_name=BBM+Registration&amp;item_description=Burning+Bush+Ministries+registration+for+the+events%2C+either+Passover%2C+Harvest+celebration+or+any+other+similar+events.&amp;amount=100.00&amp;return_url=http%3A%2F%2Fburningbushministries-int.co.za%2F&amp;cancel_url=http%3A%2F%2Fburningbushministries-int.co.za%2F">Register</a>
+                                <div class="btn header-btn button header-right-btn f-right d-none d-lg-block">      <a class="button" data-modal="modalOne">Register</a>
                                 </div>
                             </div>
                             <!-- Mobile Menu -->
@@ -103,6 +197,46 @@
             </div>
         </div>
 	<!-- Header section end -->
+
+<div id="modalOne" class="modal">
+      <div class="modal-content">
+        <div class="contact-form">
+          <a class="close">&times;</a>
+          <form  action="https://www.payfast.co.za/eng/process" name="form_4b4cc514cb4f65acbe66b23c64b9e9dd" onsubmit="gotoPayfast()""  method="post">
+             <input type="hidden" name="cmd" value="_paynow"/>
+            <input type="hidden" name="receiver" value="mabasolindaniricardo@gmail.com"/>
+            <input type="hidden" name="item_name" value="{item_name}"/>
+            <input type="hidden" name="name_first" value={firstName}/>
+            <input type="hidden" name="phone" value={province}/>
+            <input type="hidden" name="item_description" value="Burning Bush Ministries registration for preparation of the event"/>
+            <input type="hidden" name="return_url" value="http://testing.burningbushministries-int.co.za"/>
+            <input type="hidden" name="cancel_url" value="http://testing.burningbushministries-int.co.za"/>
+            <input type="hidden" id="notify_url" name="notify_url" value="https://testing.burningbushministries-int.co.za/payment_notify"/>
+            <input type="hidden" id="merchant_id" name="merchant_id" value="15223494"/>
+            <input type="hidden" id="merchant_key" name="merchant_key" value="24n97jg15vygw"/>
+            <input type="hidden" id="email_confirmation" name="email_confirmation" value="1"/>
+            <input type="hidden" id="payment_id" name="payment_id" value="WIPEOUT"/>
+            <input type="hidden" id="confirmation_address" name="confirmation_address" value="mabasolindaniricardo@gmail.com"></input>
+            
+            <fieldset>
+            <legend><h2 align="="center>Event Registeration</h2></legend>
+            <div>
+                 <input  required class="item_name" type="text" name="item_name" placeholder="Event Name e.g. Passover" value="">
+                  <input  required class="name_first" type="text" name="name_first" placeholder="First Name" value="">
+                  <!-- <input  required class="name_last" type="text" name="name_last" placeholder="Last Name" value=""> -->
+                  <input  required type="email_address" name="email_address" placeholder="Email" value="" value="">
+                  <input  required minlength='10'  pattern="[0-9]+" type="text" name="phone" placeholder="Phone number" value="">
+                  <input required id="amount" name="amount" type="text"  pattern="[0-9.]+" value="" placeholder="Amount">
+                </div>
+               <button type="submit" class="btn ghost-black"  alt="Pay Now" title="Pay Now with PayFast" >Register
+                </button>
+             </fieldset>
+          </form>
+        </div>
+      </div>
+    </div>
+    </div>
+
 
 	<!-- Hero Area Start -->
     <div class="hero-area hero-height2 d-flex align-items-center" data-background="assets/img/hero/h2_hero.jpg">
@@ -167,46 +301,37 @@
                     <div class="starups-list">
                         <ul>
                             <li>
-                                <!-- <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="30px" height="30px">
-                                <path fill-rule="evenodd"  fill="rgb(4, 219, 236)" d="M15.000,0.000 C23.284,0.000 30.000,6.716 30.000,15.000 C30.000,23.284 23.284,30.000 15.000,30.000 C6.716,30.000 -0.000,23.284 -0.000,15.000 C-0.000,6.716 6.716,0.000 15.000,0.000 Z"/>
-                                <text kerning="auto" font-family="themify" fill="rgb(255, 255, 255)" font-size="14px" x="9px" y="22.0320000000002px">&#58956;</text>
-                                </svg> -->
+                                
                             </li>
                             <li>
-                                <p>Apostle Mcoteli was called by the Lord Jesus Christ as a successful business
-									man and an award winning insurance broker, to fulltime ministry. He was at
-									that time serving under the Full Gospel Church of God in Southern Africa.
-									Together with his wife Tandi, they founded their ministry in an informal
-									settlement in East London in 1998.
+                                <p>Apostle Mcoteli was called by the Lord Jesus Christ as a successful business man and an 
+								award winning insurance broker, to fulltime ministry. He was at that time serving under the 
+								Full Gospel Church of God in Southern Africa. Together with his wife Tandi, they founded 
+								their ministry in an informal settlement in East London in 1998.
+								God tested them to the point where they lost all the material possessions they had acquired. 
 								</p>
                             </li>
                         </ul>
                         <ul>
                             <li>
-                               <!--  <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="30px" height="30px">
-                                <path fill-rule="evenodd"  fill="rgb(4, 219, 236)" d="M15.000,0.000 C23.284,0.000 30.000,6.716 30.000,15.000 C30.000,23.284 23.284,30.000 15.000,30.000 C6.716,30.000 -0.000,23.284 -0.000,15.000 C-0.000,6.716 6.716,0.000 15.000,0.000 Z"/>
-                                <text kerning="auto" font-family="themify" fill="rgb(255, 255, 255)" font-size="14px" x="9px" y="22.0320000000002px">&#58956;</text>
-                                </svg> -->
+                               
                             </li>
                             <li>
-                                <p>Apostle Mcoteli became the first African preacher to preach via television in
-									the Eastern Cape through the then TBN Eastern Cape. God has gifted him in
-									raising leaders. His apostolic ministry quickly spread throughout the nation of
-									South Africa. 
+                                <p>Apostle Mcoteli became the first African preacher to preach via television 
+								in the Eastern Cape through the then TBN Eastern Cape. God has gifted him in 
+								raising leaders.
+								His apostolic ministry quickly spread throughout the nation of South Africa.  
 								</p>
                             </li>
                         </ul>
                         <ul>
                             <li>
-                               <!--  <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="30px" height="30px">
-                                <path fill-rule="evenodd"  fill="rgb(4, 219, 236)" d="M15.000,0.000 C23.284,0.000 30.000,6.716 30.000,15.000 C30.000,23.284 23.284,30.000 15.000,30.000 C6.716,30.000 -0.000,23.284 -0.000,15.000 C-0.000,6.716 6.716,0.000 15.000,0.000 Z"/>
-                                <text kerning="auto" font-family="themify" fill="rgb(255, 255, 255)" font-size="14px" x="9px" y="22.0320000000002px">&#58956;</text>
-                                </svg> -->
+                               
                             </li>
                             <li>
-                                <p>To date he has ordained 25 Pastors including Bishops, and 24 Elders. These
-									are responsible for the work in the 8 provinces which have a total of 85
-									churches spread across. 
+                                <p>To date he has ordained 25 Bishops including Pastors, and 24 Elders. These
+								are responsible for the work in the 8 provinces which have churches spread across South Africa. 
+									
 								</p>
                             </li>
                         </ul>
@@ -231,13 +356,10 @@
                 <div class="starups-list">
                         <ul>
                             <li>
-                              <!--   <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="30px" height="30px">
-                                <path fill-rule="evenodd"  fill="rgb(4, 219, 236)" d="M15.000,0.000 C23.284,0.000 30.000,6.716 30.000,15.000 C30.000,23.284 23.284,30.000 15.000,30.000 C6.716,30.000 -0.000,23.284 -0.000,15.000 C-0.000,6.716 6.716,0.000 15.000,0.000 Z"/>
-                                <text kerning="auto" font-family="themify" fill="rgb(255, 255, 255)" font-size="14px" x="9px" y="22.0320000000002px">&#58956;</text>
-                                </svg> -->
+                              
                             </li>
                             <li>
-                                <p>He is also the provincial chairperson of The
+                                <p> He is also the provincial chairperson of The
 									Evangelical Alliance of South Africa (TEASA), Eastern Cape, a body that
 									gathers together numerous ministry leaders across the body of Christ.
 									He is currently having a weekly radio program called ‘The Word of God is The
@@ -249,10 +371,7 @@
                         </ul>
                         <ul>
                             <li>
-                               <!--  <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="30px" height="30px">
-                                <path fill-rule="evenodd"  fill="rgb(4, 219, 236)" d="M15.000,0.000 C23.284,0.000 30.000,6.716 30.000,15.000 C30.000,23.284 23.284,30.000 15.000,30.000 C6.716,30.000 -0.000,23.284 -0.000,15.000 C-0.000,6.716 6.716,0.000 15.000,0.000 Z"/>
-                                <text kerning="auto" font-family="themify" fill="rgb(255, 255, 255)" font-size="14px" x="9px" y="22.0320000000002px">&#58956;</text>
-                                </svg> -->
+                               
                             </li>
                             <li>
                                 <p> He is a Board Member of the African Education Enterprise (AEE), a body that
@@ -267,14 +386,12 @@
                         </ul>
                         <ul>
                             <li>
-                               <!--  <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="30px" height="30px">
-                                <path fill-rule="evenodd"  fill="rgb(4, 219, 236)" d="M15.000,0.000 C23.284,0.000 30.000,6.716 30.000,15.000 C30.000,23.284 23.284,30.000 15.000,30.000 C6.716,30.000 -0.000,23.284 -0.000,15.000 C-0.000,6.716 6.716,0.000 15.000,0.000 Z"/>
-                                <text kerning="auto" font-family="themify" fill="rgb(255, 255, 255)" font-size="14px" x="9px" y="22.0320000000002px">&#58956;</text>
-                                </svg> -->
+                               
                             </li>
                             <li>
                                 <p> He is family man blessed with 4 children a daughter and 3 sons. Together
-									with his wife Tandi, they also serve as Marriage Counsellors, a ministry that
+									with his wife Tandi, they founded Olea Bond Couples's Fellowship and also 
+									serve as Marriage Counsellors, a ministry that
 									has reaches multitude of families, even beyond their church walls. 
 									Apostle Mcoteli is a man of faith, a visionary and a pioneer. He has travelled
 									and ministered both in Africa and USA.
@@ -291,10 +408,10 @@
         <!-- Visit Our Tailor End -->
 	<!-- Footer section -->
 	<footer class="footer-section">
-		<div class="container">
-			<div class="copyright"> Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | Burning Bush Ministries</div>
-		</div>
-	</footer>
+        <div class="container">
+            <div class="copyright"> Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | Burning Bush Ministries</div>
+        </div>
+    </footer>
 	<!-- Footer section end-->
 	
 	<!--====== Javascripts & Jquery ======-->
@@ -338,6 +455,30 @@
         })();
         </script>
         <!-- /GetButton.io widget -->
+        <script>
+              var modalBtns = [...document.querySelectorAll(".button")];
+              modalBtns.forEach(function(btn){
+                btn.onclick = function() {
+                  var modal = btn.getAttribute('data-modal');
+                  document.getElementById(modal).style.display = "block";
+                }
+              });
+              
+              var closeBtns = [...document.querySelectorAll(".close")];
+              closeBtns.forEach(function(btn){
+                btn.onclick = function() {
+                  var modal = btn.closest('.modal');
+                  modal.style.display = "none";
+                }
+              });
+              
+              window.onclick = function(event) {
+                if (event.target.className === "modal") {
+                  event.target.style.display = "none";
+                }
+              }
+
+        </script>
 
 	</body>
 </html>
