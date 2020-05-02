@@ -133,7 +133,7 @@ Helper CSS
 .set-bg {
 	background-repeat: no-repeat;
 	background-size: cover;
-	background-position: top center;
+	background-position: center center;
 }
 
 .spad {
@@ -499,7 +499,7 @@ Hero section
 }
 
 .hs-item {
-	height: 1068px;
+	height: calc(100vh);
 	padding-top: 477px;
 }
 
@@ -1835,7 +1835,7 @@ Responsive
 		background: #ddd;
 	}
 	.hs-item {
-		height: auto;
+		height: calc(100vh);
 	}
 	.hs-item .container {
 		padding-bottom: 400px;

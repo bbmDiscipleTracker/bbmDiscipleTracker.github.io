@@ -56,11 +56,13 @@
 			    color:azure;
 			    font-size: 175px;
     			color: mintcream;
+    			text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+
 
 	    		
 			}
 			.header-area .header-bottom {
-			    padding: 0px 20px;
+			    /*padding: 22px 20px;*/
 			    background: #353649;
 			} 
 			.header-area .slicknav_btn {
@@ -68,8 +70,8 @@
 			}
 			
 			
-			@media only screen and (min-width: 0px) and (max-width: 4140px){
-					h1{font-size: 71px;
+			@media only screen and (min-width: 0px) and (max-width: 600px){
+					h1{font-size: 65px;
 					  text-align: center;	}	
 			}
 
@@ -79,7 +81,7 @@
 			}
 
 			@media only screen and (min-width: 766px) and (max-width: 850px){
-				h1{font-size: 97px;	
+				h1{font-size: 110px;	
 				  text-align: center;}	
 			}
 
@@ -120,7 +122,8 @@
 			    padding-top: 477px;
 			}
 
-
+			
+			
 			.hns-item{
 				color: #ffffff!important;
 			    border-width: 2px!important;
@@ -160,7 +163,7 @@
 			}
 
     		@media only screen and (min-width: 400px) and (max-width: 600px){
-				.hero-nav-slider-warp{bottom: 200px;}		
+				.hero-nav-slider-warp{bottom: 100px;}		
 			}
 
 			@media only screen and (min-width: 600px) and (max-width: 800px){
@@ -168,7 +171,7 @@
 			}
 
 			@media only screen and (min-width: 800px) and (max-width: 1000px){
-				.hero-nav-slider-warp{bottom: 2000px;}	
+				.hero-nav-slider-warp{bottom: 200px;}	
 			}
 
 			@media only screen and (min-width: 1000px){
@@ -178,6 +181,12 @@
 			@media only screen and (max-width: 4140px) and (min-width: 0px){
 				h1 {
 				    bottom: 430px;	
+				}
+			}
+
+			@media only screen and (min-width: 992px){
+				.reg-mobile{
+					display: none !important;
 				}
 			}
 
@@ -201,15 +210,34 @@
 			      margin: 10vh auto; /* 15% from the top and centered */
 			      padding: 20px;
 			      border: 1px solid #888;
-			      width: 60%; /* Could be more or less, depending on screen size */
+			      width: 80%; /* Could be more or less, depending on screen size */
 		      }
-		      @media (min-width: 1366px) {
+		      @media (min-width: 499px) {
 		      .modal-content {
 			      background-color: #fefefe;
 			      margin: 10vh auto; /* 15% from the top and centered */
 			      padding: 20px;
 			      border: 1px solid #888;
-			      width: 30%; /* Could be more or less, depending on screen size */
+			      width: 80%; /* Could be more or less, depending on screen size */
+			      }
+			  }
+
+		      @media (min-width: 799px) {
+		      .modal-content {
+			      background-color: #fefefe;
+			      margin: 10vh auto; /* 15% from the top and centered */
+			      padding: 20px;
+			      border: 1px solid #888;
+			      width: 60%; /* Could be more or less, depending on screen size */
+			      }
+			   }
+		       @media (min-width: 1230px) {
+		      .modal-content {
+			      background-color: #fefefe;
+			      margin: 10vh auto; /* 15% from the top and centered */
+			      padding: 20px;
+			      border: 1px solid #888;
+			      width: 40%; /* Could be more or less, depending on screen size */
 		      }
 		      }
 		      h2, p {
@@ -284,6 +312,7 @@
 
 </head>
 <body>
+
 	<!-- Preloader Start -->
     <div id="preloader-active">
         <div class="preloader d-flex align-items-center justify-content-center">
@@ -295,6 +324,8 @@
             </div>
         </div>
     </div>
+	
+
 	<!-- Header section -->
 	<header>
         <!-- Header Start -->
@@ -332,14 +363,17 @@
                                                     <li><a href="">Boarder region</a></li>
                                                     <li><a href="">Sarah Baartman</a></li>
                                                     <li><a href="">Mthatha region</a></li>
-                                                    <li><a href="">Gauteng Region</a></li>
                                                     <li><a href="">Free State region</a></li>
                                                     <li><a href="">Western Cape Region</a></li>
-                                                    <li><a href="">Gauteng Region</a></li>
                                                     <li><a href="">South coast </a></li>
+													<li><a href="">Gauteng Region</a></li>
                                                 </ul>
 											</li>
                                             <li><a href="contact.html">Contact</a></li>
+                                             <li class="reg-mobile">
+                                <div class="btn header-btn button header-right-btn f-right d-lg-block">		
+                                	<a class="button" data-modal="modalOne">Event Registration</a>
+                                                </div></li>
                                         </ul>
                                     </nav>
                                 </div>
@@ -373,9 +407,9 @@
             <input type="hidden" name="name_first" value={firstName}/>
             <input type="hidden" name="phone" value={province}/>
             <input type="hidden" name="item_description" value="Burning Bush Ministries registration for preparation of the event"/>
-            <input type="hidden" name="return_url" value="http://testing.burningbushministries-int.co.za"/>
-            <input type="hidden" name="cancel_url" value="http://testing.burningbushministries-int.co.za"/>
-            <input type="hidden" id="notify_url" name="notify_url" value="https://testing.burningbushministries-int.co.za/payment_notify"/>
+            <input type="hidden" name="return_url" value="https://burningbushministries-int.co.za"/>
+            <input type="hidden" name="cancel_url" value="https://burningbushministries-int.co.za"/>
+            <input type="hidden" id="notify_url" name="notify_url" value="https://burningbushministries-int.co.za/payment_notify"/>
             <input type="hidden" id="merchant_id" name="merchant_id" value="15223494"/>
             <input type="hidden" id="merchant_key" name="merchant_key" value="24n97jg15vygw"/>
             <input type="hidden" id="email_confirmation" name="email_confirmation" value="1"/>

@@ -35,38 +35,63 @@
     <link rel="stylesheet" href="css/style.css"/>
 
       <style>
-        /* Popup Box */
+        @media only screen and (min-width: 992px){
+            .reg-mobile{
+              display: none !important;
+            }
+          }
+
+           /* Popup Box */
               /* The Modal (background) */
               .modal {
-                  display: none; /* Hidden by default */
-                  position: fixed; /* Stay in place */
-                  z-index: 8888; /* Sit on top */
-                  left: 0;
-                  top: 0;
-                  width: 100%; /* Full width */
-                  height: 100%; /* Full height */
-                  overflow: auto; /* Enable scroll if needed */
-                  background-color: rgb(0,0,0); /* Fallback color */
-                  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+                display: none; /* Hidden by default */
+                position: fixed; /* Stay in place */
+                z-index: 8888; /* Sit on top */
+                left: 0;
+                top: 0;
+                width: 100%; /* Full width */
+                height: 100%; /* Full height */
+                overflow: auto; /* Enable scroll if needed */
+                background-color: rgb(0,0,0); /* Fallback color */
+                background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
               }
               /* Modal Content/Box */
               .modal-content {
-                  background-color: #fefefe;
-                  margin: 10vh auto; /* 15% from the top and centered */
-                  padding: 20px;
-                  border: 1px solid #888;
-                  width: 60%; /* Could be more or less, depending on screen size */
+                background-color: #fefefe;
+                margin: 10vh auto; /* 15% from the top and centered */
+                padding: 20px;
+                border: 1px solid #888;
+                width: 80%; /* Could be more or less, depending on screen size */
               }
-              @media (min-width: 1366px) {
+              @media (min-width: 499px) {
               .modal-content {
-                  background-color: #fefefe;
-                  margin: 10vh auto; /* 15% from the top and centered */
-                  padding: 20px;
-                  border: 1px solid #888;
-                  width: 30%; /* Could be more or less, depending on screen size */
+                background-color: #fefefe;
+                margin: 10vh auto; /* 15% from the top and centered */
+                padding: 20px;
+                border: 1px solid #888;
+                width: 80%; /* Could be more or less, depending on screen size */
+                }
+            }
+
+              @media (min-width: 799px) {
+              .modal-content {
+                background-color: #fefefe;
+                margin: 10vh auto; /* 15% from the top and centered */
+                padding: 20px;
+                border: 1px solid #888;
+                width: 60%; /* Could be more or less, depending on screen size */
+                }
+             }
+               @media (min-width: 1230px) {
+              .modal-content {
+                background-color: #fefefe;
+                margin: 10vh auto; /* 15% from the top and centered */
+                padding: 20px;
+                border: 1px solid #888;
+                width: 40%; /* Could be more or less, depending on screen size */
               }
-              }
-              h2, p {
+            }
+                  h2, p {
                   margin: 0 0 20px;
                   font-weight: 400;
                   color: #666;
@@ -183,14 +208,17 @@
                                                     <li><a href="">Boarder region</a></li>
                                                     <li><a href="">Sarah Baartman</a></li>
                                                     <li><a href="">Mthatha region</a></li>
-                                                    <li><a href="">Gauteng Region</a></li>
                                                     <li><a href="">Free State region</a></li>
                                                     <li><a href="">Western Cape Region</a></li>
-                                                    <li><a href="">Gauteng Region</a></li>
                                                     <li><a href="">South coast </a></li>
+													<li><a href="">Gauteng Region</a></li>
                                                 </ul>
                                                 </li>
                                            <li><a href="contact.html">Contact</a></li>
+                                            <li class="reg-mobile">
+                                <div class="btn header-btn button header-right-btn f-right d-lg-block">   
+                                  <a class="button" data-modal="modalOne">Event Registration</a>
+                                                </div></li>
                                         </ul>
                                     </nav>
                                 </div>
@@ -222,9 +250,9 @@
             <input type="hidden" name="name_first" value={firstName}/>
             <input type="hidden" name="phone" value={province}/>
             <input type="hidden" name="item_description" value="Burning Bush Ministries registration for preparation of the event"/>
-            <input type="hidden" name="return_url" value="http://testing.burningbushministries-int.co.za"/>
-            <input type="hidden" name="cancel_url" value="http://testing.burningbushministries-int.co.za"/>
-            <input type="hidden" id="notify_url" name="notify_url" value="https://testing.burningbushministries-int.co.za/payment_notify"/>
+             <input type="hidden" name="return_url" value="https://burningbushministries-int.co.za"/>
+            <input type="hidden" name="cancel_url" value="https://burningbushministries-int.co.za"/>
+            <input type="hidden" id="notify_url" name="notify_url" value="https://burningbushministries-int.co.za/payment_notify"/>
             <input type="hidden" id="merchant_id" name="merchant_id" value="15223494"/>
             <input type="hidden" id="merchant_key" name="merchant_key" value="24n97jg15vygw"/>
             <input type="hidden" id="email_confirmation" name="email_confirmation" value="1"/>
@@ -361,7 +389,7 @@
                             <div class="media contact-info">
                                 <span class="contact-info__icon"><i class="ti-tablet"></i></span>
                                 <div class="media-body">
-                                    <h3>+2781 593 6513</h3>
+                                    <h3>+27 43 722 6672</h3>
                                     <p>Mon to Fri 8am to 17pm</p>
                                 </div>
                             </div>
